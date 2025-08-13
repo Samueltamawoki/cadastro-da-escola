@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário escolar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h1>cadastro</h1>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome">
+        <br>
+        <label for="sobrenome">Sobrenome</label>
+        <input type="text" id="sobrenome">
+        <br>
+        <label for="dataDeNascimento">data de nascimento</label>
+        <input type="date" id="dataDeNascimento">
+        <br>
+        <label for="rg">RG</label>
+        <input type="number" id="rg">
+        <br>
+        <label for="cpf">CPF</label>
+        <input type="number" id="cpf">
+        <br>
+        <label for="nacionalidade">Nacionalidade</label>
+        <input type="text" id="nacionalidade">
+        <br>
+        <label for="naturalidade">Naturalidade</label>
+        <input type="text" id="naturalidade">
+        <br>
+        <label for="altura">altura</label>
+        <input type="number" id="altura">
+        <br>
+        <label for="peso">peso(kg)</label>
+        <input type="number" id="peso">
+        <br>
+        <label for="reponsaveis">reponsavel</label>
+        <input type="text" id="reponsaveis">
+        <br>
+        <label for="telefone Do Responsavel">telefone do responsavel</label >
+        <input type="number" id="telefoneDoResponsavel">
+        <br>
+        <label for="serie">qual série</label>
+        <select id="serie"> 
+            <option value="fundamental1">Fundamental 1</option>
+            <option value="fundamental2">Fundamental 2</option>
+            <option value="ensino medio">Ensino Médio</option>
+        </select>
+        
+        <br>
+        
+        <label for="ano">Ano</label>
+        <select id="ano">
+            <option value="">---fundamental 1---</option readyonly>
+            <option value="1 ano">1 ano</option>
+            <option value="2 ano">2 ano</option>
+            <option value="3 ano">3 ano</option>
+            <option value="4 ano">4 ano</option>
+            <option value="5 ano">5 ano</option>
+            <option value="">---fundamental 2---</option>
+            <option value="6 ano">6 ano</option>
+            <option value="7 ano">7 ano</option>
+            <option value="8 ano">8 ano</option>
+            <option value="9 ano">9 ano</option>
+            <option value="">---ensino médio---</option>
+            <option value="1 ano do médio">1 ano do médio</option>
+            <option value="2 ano do médio">2 ano do médio</option>
+            <option value="3 ano do médio">3 ano do médio</option>
+        </select>
+        <br>
+        <button onclick="enviarFormulario()">Enviar</button>
+    </center>
+    <script src="script.js"></script>
+    
+</body>
+</html>
